@@ -1,0 +1,9 @@
+# Python dependencies
+flask
+pyyaml
+requests
+scipy
+numpy
+scikit-learn
+pandas
+matplotlib
