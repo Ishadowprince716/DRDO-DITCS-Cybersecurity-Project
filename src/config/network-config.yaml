@@ -1,0 +1,12 @@
+# Sample network config - src/config/network-config.yaml
+
+network:
+  subnets:
+    - 192.168.1.0/24
+    - 10.0.0.0/16
+  firewall:
+    default_policy: deny
+    allowed_services:
+      - ssh
+      - http
+      - https
