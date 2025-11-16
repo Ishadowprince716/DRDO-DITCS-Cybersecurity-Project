@@ -1,0 +1,23 @@
+{
+  "policies": [
+    {
+      "id": "policy1",
+      "name": "Access Control",
+      "description": "Strict authentication and authorization required.",
+      "rules": [
+        "Multi-factor authentication",
+        "Role-based access control",
+        "Account lockout after 5 failed attempts"
+      ]
+    },
+    {
+      "id": "policy2",
+      "name": "Data Protection",
+      "description": "Encryption standards for data at rest and in transit.",
+      "rules": [
+        "AES-256 encryption for storage",
+        "TLS 1.2+ for transport encryption"
+      ]
+    }
+  ]
+}
